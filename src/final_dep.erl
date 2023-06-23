@@ -6,8 +6,4 @@
     Str :: string(),
     Res :: number().
 to_num(Str) ->
-  try
-    list_to_integer(Str)
-  catch _:_:_ ->
-    list_to_float(Str)
-  end.
+  list_to_integer(Str).

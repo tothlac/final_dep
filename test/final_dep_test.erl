@@ -7,5 +7,3 @@
 int_test() ->
   ?assertEqual(3, final_dep:to_num("3")).
 
-float_test() ->
-  ?assertEqual(3.0, final_dep:to_num("3.0")).
